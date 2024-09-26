@@ -13,8 +13,11 @@
 
      $maiuscola = strtoupper($str);
 
-
      echo "<p style= 'color: blue;'>$maiuscola</p>";
+
+     $caratteri = strlen($str);
+
+     echo "<span style= 'color: red;'>$caratteri</span>"
 
     ?>
 </body>
