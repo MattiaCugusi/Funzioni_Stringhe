@@ -17,7 +17,12 @@
 
      $caratteri = strlen($str);
 
-     echo "<span style= 'color: red;'>$caratteri</span>"
+     echo "<span style= 'color: red;'>$caratteri</span>";
+
+     $parole = str_word_count($str);
+
+     echo "<span style= 'color: yellow;'>$parole</span>";
+
 
     ?>
 </body>
