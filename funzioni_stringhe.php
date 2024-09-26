@@ -11,6 +11,11 @@
     
      echo "<p style= 'color: green;'>$str</p>";
 
+     $maiuscola = strtoupper($str);
+
+
+     echo "<p style= 'color: blue;'>$maiuscola</p>";
+
     ?>
 </body>
 </html>
